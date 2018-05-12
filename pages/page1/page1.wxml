@@ -1,0 +1,9 @@
+<!--pages/page1.wxml-->
+<form bindsubmit="openLocation">
+  <view class='search' style='margin:1.5%;display:flex;flex-direction:row' >
+    <input class='input' type='string' name="address" value='{{address}}' bindinput="siteInput" style='width:80%' placeholder="请输入地铁站点" placeholder-style='text-align:center;margin:10px o'>
+    </input>
+    <button style='width:20%' type="primary" formType="submit">查询</button>
+  </view>
+</form>
+<map id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="{{scale}}" controls="{{controls}}" bindcontroltap="controltap" markers="{{markers}}" circles="{{circles}}" bindmarkertap="markertap" polyline="{{polyline}}" bindregionchange="regionchange" show-location style="width: 100%; height: {{view.Height}}px;"></map>

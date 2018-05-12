@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/page1/page1",
+    "pages/ticket/ticket",
+    "pages/info/info",
+    "pages/around/around",
+    "pages/reward/reward",
+    "pages/guide_inside/guide_inside",
+    "pages/arive_time/arive_time",
+    "pages/we/we"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#515151",
+    "selectedColor": "#3cc51f",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "img/home.png",
+        "selectedIconPath": "img/home_selected.png",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/page1/page1",
+        "iconPath": "img/map.png",
+        "selectedIconPath": "img/map_selected.png",
+        "text": "地图"
+      },
+      {
+        "pagePath": "pages/we/we",
+        "iconPath": "img/man.png",
+        "selectedIconPath": "img/man_selected.png",
+        "text": "我们"
+      }
+    ]
+  }
+}

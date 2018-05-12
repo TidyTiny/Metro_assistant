@@ -1,0 +1,4 @@
+<view class="view">  
+  <view class="cover-9" style='text-align:center;padding:20% 0 0 0'>在各个进站口均设有购票二维码哦</view>  
+  <button type="primary" bindtap="scan" id="scan">扫一扫，轻松购票</button>  
+</view>

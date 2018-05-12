@@ -1,0 +1,31 @@
+<!--index.wxml-->
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{true}}" interval="2500" style='width:100%;height:200px'>
+  <block wx:key="unique">
+    <swiper-item><image src='/img/fig1.jpg' style='width:100%;height:200px'></image></swiper-item>
+    <swiper-item><image src='/img/fig2.jpg' style='width:100%;height:200px'></image></swiper-item>
+    <swiper-item><image src='/img/fig3.jpg' style='width:100%;height:200px'></image></swiper-item>
+    <swiper-item><image src='/img/fig4.jpg' style='width:100%;height:200px'></image></swiper-item>
+  </block>
+</swiper>
+<view style='margin:5%;display:flex;flex-direction:row;justify-content: space-between' >
+  <navigator url="/pages/ticket/ticket" style='margin:2.5%' >
+    <button size='mini' style='width:100%'><image src='/img/ticket.png' style='margin:13px 13px 0 13px;width:40px;height:40px'></image>线上购票</button>
+  </navigator>
+  <navigator url="/pages/arive_time/arive_time" style='margin:2.5%' >
+    <button size='mini' style='width:100%'><image src='/img/time.png' style='margin:13px 13px 0 13px;width:40px;height:40px'></image>到站信息</button>
+  </navigator>
+  <navigator url="/pages/info/info" style='margin:2.5%' >
+    <button size='mini' style='width:100%'><image src='/img/info.png' style='margin:13px 13px 0 13px;width:40px;height:40px'></image>站内设施</button>
+  </navigator>
+</view>
+<view style='margin:-7% 5%;display:flex;flex-direction:row;justify-content: space-between' >
+  <navigator url="/pages/guide_inside/guide_inside" style='margin:2.5%' >
+    <button size='mini' style='width:100%'><image src='/img/guide.png' style='margin:13px 13px 0 13px;width:40px;height:40px'></image>站内导航</button>
+  </navigator>
+  <navigator url="/pages/around/around" style='margin:2.5%' >
+    <button size='mini' style='width:100%'><image src='/img/around.png' style='margin:13px 13px 0 13px;width:40px;height:40px'></image>我的周围</button>
+  </navigator>
+  <navigator url="/pages/reward/reward" style='margin:2.5%' >
+    <button size='mini' style='width:100%'><image src='/img/reward.png' style='margin:13px 13px 0 13px;width:40px;height:40px'></image>打赏我们</button>
+  </navigator>
+</view>

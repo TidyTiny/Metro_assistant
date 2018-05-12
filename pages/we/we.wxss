@@ -1,0 +1,5 @@
+/* pages/we/we.wxss */
+.about{
+  width:90%;
+  margin:5%; 
+}
