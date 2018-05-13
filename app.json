@@ -9,12 +9,13 @@
     "pages/reward/reward",
     "pages/guide_inside/guide_inside",
     "pages/arive_time/arive_time",
-    "pages/we/we"
+    "pages/we/we",
+    "pages/site/site"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "地铁一站通",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {

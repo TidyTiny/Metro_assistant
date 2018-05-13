@@ -92,6 +92,12 @@ Page({
 
   },
 
+  search: function () {
+    wx.navigateTo({
+      url: '../../pages/site/site?title=请选择站点',
+    })
+  },
+
   //定义查询位置的函数：
   openLocation: function (e) {
     var value = e.detail.value.address

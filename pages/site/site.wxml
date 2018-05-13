@@ -1,0 +1,438 @@
+<!--pages/site/site.wxml-->
+<view >
+    <scroll-view scroll-x="true" class="tab-h" scroll-left="{{scrollLeft}}">
+        <view class="tab-item {{currentTab==0?'active':''}}"  data-current="0" bindtap="swichNav">1号线</view>
+        <view class="tab-item {{currentTab==1?'active':''}}" data-current="1" bindtap="swichNav">2号线</view>
+    </scroll-view>
+    <swiper class="tab-content" current="{{currentTab}}" duration="300" bindchange="switchTab"
+     style="height:{{winHeight}}rpx">
+        <swiper-item>
+            <scroll-view scroll-y="true" class="scoll-h" >
+                <block>
+                    <view class="item-ans">
+                        <view class="expertInfo">
+                            <view class="name">开福区政府</view>
+                            <view class="tag">政治，办公</view>
+                            <view class="answerHistory">暂无周边信息 </view>
+                        </view>
+                        <button class="askBtn" bindtap='line_1_1'>去这里</button> 
+                    </view>
+                </block>
+                <block>
+                    <view class="item-ans">
+                        <view class="expertInfo">
+                            <view class="name">马厂</view>
+                            <view class="tag">政治，办公</view>
+                            <view class="answerHistory">暂无周边信息 </view>
+                        </view>
+                        <button class="askBtn" bindtap='line_1_2'>去这里</button> 
+                    </view>
+                </block>
+                <block>
+                    <view class="item-ans">
+                        <view class="expertInfo">
+                            <view class="name">北辰三角洲</view>
+                            <view class="tag">政治，办公</view>
+                            <view class="answerHistory">暂无周边信息 </view>
+                        </view>
+                        <button class="askBtn" bindtap='line_1_3'>去这里</button> 
+                    </view>
+                </block>
+                <block>
+                    <view class="item-ans">
+                        <view class="expertInfo">
+                            <view class="name">开福寺</view>
+                            <view class="tag">旅游，文化</view>
+                            <view class="answerHistory">暂无周边信息 </view>
+                        </view>
+                        <button class="askBtn" bindtap='line_1_4'>去这里</button> 
+                    </view>
+                </block>
+                <block>
+                    <view class="item-ans">
+                        <view class="expertInfo">
+                            <view class="name">文昌阁</view>
+                            <view class="tag">旅游，文化</view>
+                            <view class="answerHistory">暂无周边信息 </view>
+                        </view>
+                        <button class="askBtn" bindtap='line_1_5'>去这里</button> 
+                    </view>
+                </block>
+                <block>
+                    <view class="item-ans">
+                        <view class="expertInfo">
+                            <view class="name">培元桥</view>
+                            <view class="tag">政治，办公</view>
+                            <view class="answerHistory">暂无周边信息 </view>
+                        </view>
+                        <button class="askBtn" bindtap='line_1_6'>去这里</button> 
+                    </view>
+                </block>
+                <block>
+                    <view class="item-ans">
+                        <view class="expertInfo">
+                            <view class="name">五一广场</view>
+                            <view class="tag">购物，娱乐</view>
+                            <view class="answerHistory">暂无周边信息 </view>
+                        </view>
+                        <button class="askBtn" bindtap='line_1_7'>去这里</button> 
+                    </view>
+                </block>
+                <block>
+                    <view class="item-ans">
+                        <view class="expertInfo">
+                            <view class="name">黄兴广场</view>
+                            <view class="tag">购物，娱乐</view>
+                            <view class="answerHistory">暂无周边信息 </view>
+                        </view>
+                        <button class="askBtn" bindtap='line_1_8'>去这里</button> 
+                    </view>
+                </block>
+                <block>
+                    <view class="item-ans">
+                        <view class="expertInfo">
+                            <view class="name">南门口</view>
+                            <view class="tag">政治，办公</view>
+                            <view class="answerHistory">暂无周边信息 </view>
+                        </view>
+                        <button class="askBtn" bindtap='line_1_9'>去这里</button> 
+                    </view>
+                </block>
+                <block>
+                    <view class="item-ans">
+                        <view class="expertInfo">
+                            <view class="name">侯家塘</view>
+                            <view class="tag">政治，办公</view>
+                            <view class="answerHistory">暂无周边信息 </view>
+                        </view>
+                        <button class="askBtn" bindtap='line_1_10'>去这里</button> 
+                    </view>
+                </block>
+                <block>
+                    <view class="item-ans">
+                        <view class="expertInfo">
+                            <view class="name">南湖路</view>
+                            <view class="tag">政治，办公</view>
+                            <view class="answerHistory">暂无周边信息 </view>
+                        </view>
+                        <button class="askBtn" bindtap='line_1_11'>去这里</button> 
+                    </view>
+                </block>
+                <block>
+                    <view class="item-ans">
+                        <view class="expertInfo">
+                            <view class="name">黄土岭</view>
+                            <view class="tag">政治，办公</view>
+                            <view class="answerHistory">暂无周边信息 </view>
+                        </view>
+                        <button class="askBtn" bindtap='line_1_12'>去这里</button> 
+                    </view>
+                </block>
+                <block>
+                    <view class="item-ans">
+                        <view class="expertInfo">
+                            <view class="name">徐家冲</view>
+                            <view class="tag">政治，办公</view>
+                            <view class="answerHistory">暂无周边信息 </view>
+                        </view>
+                        <button class="askBtn" bindtap='line_1_13'>去这里</button> 
+                    </view>
+                </block>
+                <block>
+                    <view class="item-ans">
+                        <view class="expertInfo">
+                            <view class="name">铁道学院</view>
+                            <view class="tag">政治，办公</view>
+                            <view class="answerHistory">暂无周边信息 </view>
+                        </view>
+                        <button class="askBtn" bindtap='line_1_14'>去这里</button> 
+                    </view>
+                </block>
+                <block>
+                    <view class="item-ans">
+                        <view class="expertInfo">
+                            <view class="name">友谊路</view>
+                            <view class="tag">政治，办公</view>
+                            <view class="answerHistory">暂无周边信息 </view>
+                        </view>
+                        <button class="askBtn" bindtap='line_1_15'>去这里</button> 
+                    </view>
+                </block>
+                <block>
+                    <view class="item-ans">
+                        <view class="expertInfo">
+                            <view class="name">省政府</view>
+                            <view class="tag">政治，办公</view>
+                            <view class="answerHistory">暂无周边信息 </view>
+                        </view>
+                        <button class="askBtn" bindtap='line_1_16'>去这里</button> 
+                    </view>
+                </block>
+                <block>
+                    <view class="item-ans">
+                        <view class="expertInfo">
+                            <view class="name">桂花坪</view>
+                            <view class="tag">政治，办公</view>
+                            <view class="answerHistory">暂无周边信息 </view>
+                        </view>
+                        <button class="askBtn" bindtap='line_1_17'>去这里</button> 
+                    </view>
+                </block>
+                <block>
+                    <view class="item-ans">
+                        <view class="expertInfo">
+                            <view class="name">大托</view>
+                            <view class="tag">政治，办公</view>
+                            <view class="answerHistory">暂无周边信息 </view>
+                        </view>
+                        <button class="askBtn" bindtap='line_1_18'>去这里</button> 
+                    </view>
+                </block>
+                <block>
+                    <view class="item-ans">
+                        <view class="expertInfo">
+                            <view class="name">中信广场</view>
+                            <view class="tag">政治，办公</view>
+                            <view class="answerHistory">暂无周边信息 </view>
+                        </view>
+                        <button class="askBtn" bindtap='line_1_19'>去这里</button> 
+                    </view>
+                </block>
+                <block>
+                    <view class="item-ans">
+                        <view class="expertInfo">
+                            <view class="name">尚双塘</view>
+                            <view class="tag">政治，办公</view>
+                            <view class="answerHistory">暂无周边信息 </view>
+                        </view>
+                        <button class="askBtn" bindtap='line_1_20'>去这里</button> 
+                    </view>
+                </block>
+            </scroll-view>
+        </swiper-item>
+        <swiper-item>
+            <scroll-view scroll-y="true" class="scoll-h" >
+                <block>
+                    <view class="item-ans">
+                        <view class="expertInfo2">
+                            <view class="name">麓云路</view>
+                            <view class="tag">政治，办公</view>
+                            <view class="answerHistory">暂无周边信息 </view>
+                        </view>
+                        <button class="askBtn" bindtap='line_2_1'>去这里</button>
+                    </view>
+                </block>
+                <block>
+                    <view class="item-ans">
+                        <view class="expertInfo2">
+                            <view class="name">文化艺术中心</view>
+                            <view class="tag">文化</view>
+                            <view class="answerHistory">暂无周边信息 </view>
+                        </view>
+                        <button class="askBtn" bindtap='line_2_2'>去这里</button>
+                    </view>
+                </block>
+                <block>
+                    <view class="item-ans">
+                        <view class="expertInfo2">
+                            <view class="name">梅溪湖西</view>
+                            <view class="tag">旅游，休闲</view>
+                            <view class="answerHistory">暂无周边信息 </view>
+                        </view>
+                        <button class="askBtn" bindtap='line_2_3'>去这里</button>
+                    </view>
+                </block>
+                <block>
+                    <view class="item-ans">
+                        <view class="expertInfo2">
+                            <view class="name">望城坡</view>
+                            <view class="tag">政治，办公</view>
+                            <view class="answerHistory">暂无周边信息 </view>
+                        </view>
+                        <button class="askBtn" bindtap='line_2_4'>去这里</button>
+                    </view>
+                </block>
+                <block>
+                    <view class="item-ans">
+                        <view class="expertInfo2">
+                            <view class="name">金星路</view>
+                            <view class="tag">政治，办公</view>
+                            <view class="answerHistory">暂无周边信息 </view>
+                        </view>
+                        <button class="askBtn" bindtap='line_2_5'>去这里</button>
+                    </view>
+                </block>
+                <block>
+                    <view class="item-ans">
+                        <view class="expertInfo2">
+                            <view class="name">西湖公园</view>
+                            <view class="tag">旅游，休闲</view>
+                            <view class="answerHistory">暂无周边信息 </view>
+                        </view>
+                        <button class="askBtn" bindtap='line_2_6'>去这里</button>
+                    </view>
+                </block>
+                <block>
+                    <view class="item-ans">
+                        <view class="expertInfo2">
+                            <view class="name">溁湾镇</view>
+                            <view class="tag">政治，办公</view>
+                            <view class="answerHistory">暂无周边信息 </view>
+                        </view>
+                        <button class="askBtn" bindtap='line_2_7'>去这里</button>
+                    </view>
+                </block>
+                <block>
+                    <view class="item-ans">
+                        <view class="expertInfo2">
+                            <view class="name">橘子洲</view>
+                            <view class="tag">旅游，休闲</view>
+                            <view class="answerHistory">暂无周边信息 </view>
+                        </view>
+                        <button class="askBtn" bindtap='line_2_8'>去这里</button>
+                    </view>
+                </block>
+                <block>
+                    <view class="item-ans">
+                        <view class="expertInfo2">
+                            <view class="name">湘江中路</view>
+                            <view class="tag">政治，办公</view>
+                            <view class="answerHistory">暂无周边信息 </view>
+                        </view>
+                        <button class="askBtn" bindtap='line_2_9'>去这里</button>
+                    </view>
+                </block>
+                <block>
+                    <view class="item-ans">
+                        <view class="expertInfo2">
+                            <view class="name">五一广场</view>
+                            <view class="tag">购物，娱乐，换乘</view>
+                            <view class="answerHistory">暂无周边信息 </view>
+                        </view>
+                        <button class="askBtn" bindtap='line_2_10'>去这里</button>
+                    </view>
+                </block>
+                <block>
+                    <view class="item-ans">
+                        <view class="expertInfo2">
+                            <view class="name">芙蓉广场</view>
+                            <view class="tag">购物，娱乐</view>
+                            <view class="answerHistory">暂无周边信息 </view>
+                        </view>
+                        <button class="askBtn" bindtap='line_2_11'>去这里</button>
+                    </view>
+                </block>
+                <block>
+                    <view class="item-ans">
+                        <view class="expertInfo2">
+                            <view class="name">迎宾路口</view>
+                            <view class="tag">政治，办公</view>
+                            <view class="answerHistory">暂无周边信息 </view>
+                        </view>
+                        <button class="askBtn" bindtap='line_2_12'>去这里</button>
+                    </view>
+                </block>
+                <block>
+                    <view class="item-ans">
+                        <view class="expertInfo2">
+                            <view class="name">袁家岭</view>
+                            <view class="tag">政治，办公</view>
+                            <view class="answerHistory">暂无周边信息 </view>
+                        </view>
+                        <button class="askBtn" bindtap='line_2_13'>去这里</button>
+                    </view>
+                </block>
+                <block>
+                    <view class="item-ans">
+                        <view class="expertInfo2">
+                            <view class="name">长沙火车站</view>
+                            <view class="tag">政治，办公</view>
+                            <view class="answerHistory">暂无周边信息 </view>
+                        </view>
+                        <button class="askBtn" bindtap='line_2_14'>去这里</button>
+                    </view>
+                </block>
+                <block>
+                    <view class="item-ans">
+                        <view class="expertInfo2">
+                            <view class="name">锦泰广场</view>
+                            <view class="tag">购物，娱乐</view>
+                            <view class="answerHistory">暂无周边信息 </view>
+                        </view>
+                        <button class="askBtn" bindtap='line_2_15'>去这里</button>
+                    </view>
+                </block>
+                <block>
+                    <view class="item-ans">
+                        <view class="expertInfo2">
+                            <view class="name">万家丽广场</view>
+                            <view class="tag">购物，娱乐</view>
+                            <view class="answerHistory">暂无周边信息 </view>
+                        </view>
+                        <button class="askBtn" bindtap='line_2_16'>去这里</button>
+                    </view>
+                </block>
+                <block>
+                    <view class="item-ans">
+                        <view class="expertInfo2">
+                            <view class="name">人民东路</view>
+                            <view class="tag">政治，办公</view>
+                            <view class="answerHistory">暂无周边信息 </view>
+                        </view>
+                        <button class="askBtn" bindtap='line_2_17'>去这里</button>
+                    </view>
+                </block>
+                <block>
+                    <view class="item-ans">
+                        <view class="expertInfo2">
+                            <view class="name">长沙大道</view>
+                            <view class="tag">政治，办公</view>
+                            <view class="answerHistory">暂无周边信息 </view>
+                        </view>
+                        <button class="askBtn" bindtap='line_2_18'>去这里</button>
+                    </view>
+                </block>
+                <block>
+                    <view class="item-ans">
+                        <view class="expertInfo2">
+                            <view class="name">沙湾公园</view>
+                            <view class="tag">旅游，休闲</view>
+                            <view class="answerHistory">暂无周边信息 </view>
+                        </view>
+                        <button class="askBtn" bindtap='line_2_19'>去这里</button>
+                    </view>
+                </block>
+                <block>
+                    <view class="item-ans">
+                        <view class="expertInfo2">
+                            <view class="name">杜花路</view>
+                            <view class="tag">政治，办公</view>
+                            <view class="answerHistory">暂无周边信息 </view>
+                        </view>
+                        <button class="askBtn" bindtap='line_2_20'>去这里</button>
+                    </view>
+                </block>
+                <block>
+                    <view class="item-ans">
+                        <view class="expertInfo2">
+                            <view class="name">长沙火车南站</view>
+                            <view class="tag">交通</view>
+                            <view class="answerHistory">暂无周边信息 </view>
+                        </view>
+                        <button class="askBtn" bindtap='line_2_21'>去这里</button>
+                    </view>
+                </block>
+                <block>
+                    <view class="item-ans">
+                        <view class="expertInfo2">
+                            <view class="name">光达</view>
+                            <view class="tag">政治，办公</view>
+                            <view class="answerHistory">暂无周边信息 </view>
+                        </view>
+                        <button class="askBtn" bindtap='line_2_22'>去这里</button>
+                    </view>
+                </block>
+            </scroll-view>
+        </swiper-item>
+    </swiper>
+</view>

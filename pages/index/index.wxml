@@ -1,10 +1,10 @@
 <!--index.wxml-->
 <swiper indicator-dots="{{indicatorDots}}" autoplay="{{true}}" interval="2500" style='width:100%;height:200px'>
   <block wx:key="unique">
-    <swiper-item><image src='/img/fig1.jpg' style='width:100%;height:200px'></image></swiper-item>
-    <swiper-item><image src='/img/fig2.jpg' style='width:100%;height:200px'></image></swiper-item>
-    <swiper-item><image src='/img/fig3.jpg' style='width:100%;height:200px'></image></swiper-item>
-    <swiper-item><image src='/img/fig4.jpg' style='width:100%;height:200px'></image></swiper-item>
+    <swiper-item><image src='/img/fig1.png' style='width:100%;height:200px'></image></swiper-item>
+    <swiper-item><image src='/img/fig2.png' style='width:100%;height:200px'></image></swiper-item>
+    <swiper-item><image src='/img/fig3.png' style='width:100%;height:200px'></image></swiper-item>
+    <swiper-item><image src='/img/fig4.png' style='width:100%;height:200px'></image></swiper-item>
   </block>
 </swiper>
 <view style='margin:5%;display:flex;flex-direction:row;justify-content: space-between' >
