@@ -4,6 +4,9 @@ Page({
     img: ""
   },
   onLoad() {
+    wx.setNavigationBarTitle({
+      title: '扫码购票'
+    });
   },
   scan() {
     wx.scanCode({

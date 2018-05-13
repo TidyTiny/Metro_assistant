@@ -8,7 +8,7 @@ Page({
     infoMess:"",
     site:"",
     Height: 0,
-    scale: 13,
+    scale: 16,
     latitude: "",
     longitude: "",
     address: "",
@@ -18,7 +18,7 @@ Page({
       id: 1,
       iconPath: "/img/minus.png",
       position: {
-        left: 320,
+        left: 300,
         top: 100 - 50,
         width: 30,
         height: 30
@@ -29,7 +29,7 @@ Page({
       id: 2,
       iconPath: "/img/add.png",
       position: {
-        left: 360,
+        left: 340,
         top: 100 - 50,
         width: 30,
         height: 30

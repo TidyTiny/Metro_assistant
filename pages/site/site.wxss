@@ -12,6 +12,6 @@
 .expertInfo .name{font-size: 16px;color:#f00;margin-bottom: 6px;}
 .expertInfo2{font-size: 12px;flex-grow: 2;color: #B0B0B0;line-height: 1.5em;}
 .expertInfo2 .name{font-size: 16px;color:#00f;margin-bottom: 6px;}
-.askBtn{ width: 120rpx;height: 60rpx;line-height: 60rpx;text-align: center;font-size: 14px; border-radius: 60rpx;border: 1px solid #4675F9; color:#4675F9;}
+.askBtn{ width: 150rpx;height: 60rpx;line-height: 60rpx;text-align: center;font-size: 14px; border-radius: 60rpx;border: 1px solid #4675F9; color:#4675F9;}
 .tab-content{margin-top: 80rpx;}
 .scoll-h{height: 100%;}

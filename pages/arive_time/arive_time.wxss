@@ -1,1 +1,10 @@
 /* pages/arive_time/arive_time.wxss */
+.map_container{ 
+    height: 480px; 
+    width: 100%; 
+} 
+
+.map { 
+    height: 100%; 
+    width: 100%; 
+} 
