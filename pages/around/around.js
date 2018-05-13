@@ -35,6 +35,9 @@ Page({
       fail: function (info) {
         wx.showModal({ title: info.errMsg })
       }
+    });
+    wx.setNavigationBarTitle({
+      title: '嘿嘿嘿上哪去吃呢',
     })
   },
 

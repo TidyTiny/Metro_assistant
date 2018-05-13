@@ -46,6 +46,9 @@ Page({
   onLoad: function (options) {
     var _this = this;
 
+    wx.setNavigationBarTitle({
+      title: '我是谁？我在哪？',
+    })
     wx.getSystemInfo({
       success: function (res) {
         //设置map高度，根据当前设备宽高满屏显示

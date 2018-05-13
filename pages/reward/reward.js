@@ -1,18 +1,32 @@
 // pages/reward/reward.js
+var app = getApp();
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-  
+    img: ""
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+    var that = this
+    var scene_img = '/img/zan.jpg'
+    that.setData({
+      img:scene_img
+    })
+    wx.setNavigationBarTitle({
+      title: '飞机游艇刷起来！'
+    });
+  },
+
+  scan: function () {
+    wx.previewImage({
+      urls: ['http://chuantu.biz/t6/310/1526217622x-1404764307.png']
+    })
   },
 
   /**

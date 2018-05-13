@@ -1,4 +1,2 @@
 <!--pages/guide_inside/guide_inside.wxml-->
-<view class="countDownTimeView countDownAllView" >
-    <view class="voteText countDownTimeText">{{countDownMinute}}分{{countDownSecond}}秒</view>
-  </view>
+<view>该功能尚未开放</view>

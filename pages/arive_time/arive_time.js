@@ -43,7 +43,7 @@ Page({
     }
 
     wx.setNavigationBarTitle({
-      title: '当前距离最近的地铁站'
+      title: '没错，这就是最近的地铁'
     });
     // 发起POI检索请求 
     BMap.search({

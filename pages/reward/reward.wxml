@@ -1,2 +1,3 @@
 <!--pages/reward/reward.wxml-->
-<text>感谢您的使用！</text>
+<image src='{{img}}' style='margin:5%;width:90%;height:340px' mode='center'></image>
+<button type='primary' bindtap='scan'>扫一扫，给出你的赞赏</button>

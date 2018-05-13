@@ -5,7 +5,7 @@ Page({
   },
   onLoad() {
     wx.setNavigationBarTitle({
-      title: '扫码购票'
+      title: '没带现金还是不想排队？'
     });
   },
   scan() {
