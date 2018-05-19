@@ -56,11 +56,7 @@ Page({
           view: {
             Height: res.windowHeight
           }
-
         })
-
-
-
       }
     })
 

@@ -1,2 +1,2 @@
 <!--pages/toilet_info/line1_7.wxml-->
-<text>pages/toilet_info/line1_7.wxml</text>
+<view style='text-align:center'>厕所位置：1号线区段无厕所，请查询2号线五一广场站</view>

@@ -1,1 +1,9 @@
 /* pages/guide_inside/guide_inside.wxss */
+.section{
+   background:#90d7ec;
+   color: #fff;
+   border-radius: 30rpx;
+   margin:20rpx;
+   padding:20rpx
+
+}

@@ -1,2 +1,2 @@
 <!--pages/toilet_info/line1_12.wxml-->
-<text>pages/toilet_info/line1_12.wxml</text>
+<view style='text-align:center'>厕所位置：站台层北侧</view>

@@ -19,7 +19,7 @@ Page({
       img:scene_img
     })
     wx.setNavigationBarTitle({
-      title: '飞机游艇刷起来！'
+      title: '求求你别刷礼物了'
     });
   },
 
